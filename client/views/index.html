@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html ng-app="corinApp">
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>corina bernstein portfolio</title>
+
+        <!--STYLES-->
+        <link href="/assets/styles/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="/assets/styles/bootstrap/fonts/glyphicons-halflings-regular.tff" rel="stylesheet" type="text/css">
+        <link href="/assets/styles/bootstrap/fonts/glyphicons-halflings-regular.woff" rel="stylesheet" type="text/css">
+        <link href="/assets/styles/bootstrap/fonts/glyphicons-halflings-regular.woff2" rel="stylesheet" type="text/css">
+        <link href="/assets/styles/style.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <header id="navbar" ng-model="navbar">
+            <h1>corina marie bernstein</h1>
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#art">art</a></li>
+                <li><a href="#code">code</a></li>
+                <li><a href="#published">published work</a></li>
+                <li><a href="#about">about me</a></li>
+            </ul>
+        </header>
+
+        <div>
+            <main ng-view></main>
+        </div>
+
+        <footer>
+            <p>twitter: @corinamarie</p>
+            <p>email: corina@corinabernstein.com</p>
+            <p>phone: 320-260-8234</p>
+        </footer>
+
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="/vendors/angular-ui-bootstrap/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="/assets/styles/bootstrap/dist/css/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/controller.min.js"></script>
+
+    </body>
+</html>
