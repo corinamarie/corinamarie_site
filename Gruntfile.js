@@ -31,8 +31,7 @@ module.exports = function(grunt){
                     "bootstrap/dist/css/bootstrap.min.css",
                     "bootstrap/fonts/glyphicons-halflings-regular.ttf",
                     "bootstrap/fonts/glyphicons-halflings-regular.woff",
-                    "bootstrap/fonts/glyphicons-halflings-regular.woff2",
-                    "bootstrap/dist/css/ui-bootstrap-tpls.min.js"
+                    "bootstrap/fonts/glyphicons-halflings-regular.woff2"
                 ],
                 "dest": "server/public/assets/styles"
             },
@@ -65,7 +64,8 @@ module.exports = function(grunt){
                 expand: true,
                 cwd: 'node_modules',
                 src: [
-                    "angular-ui-bootstrap/ui-bootstrap.min.js"
+                    "angular-ui-bootstrap/ui-bootstrap.min.js",
+                    "angular-ui-bootstrap/ui-bootstrap-tpls.min.js"
                 ],
                 "dest": "server/public/vendors/"
             },
