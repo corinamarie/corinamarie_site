@@ -29,11 +29,11 @@ module.exports = function(grunt){
                 cwd: 'node_modules',
                 src: [
                     "bootstrap/dist/css/bootstrap.min.css",
-                    "bootstrap/fonts/glyphicons-halflings-regular.ttf",
-                    "bootstrap/fonts/glyphicons-halflings-regular.woff",
-                    "bootstrap/fonts/glyphicons-halflings-regular.woff2"
+                    "bootstrap/dist/fonts/glyphicons-halflings-regular.ttf",
+                    "bootstrap/dist/fonts/glyphicons-halflings-regular.woff",
+                    "bootstrap/dist/fonts/glyphicons-halflings-regular.woff2"
                 ],
-                "dest": "server/public/assets/styles"
+                "dest": "server/public/vendors"
             },
             html: {
                 expand: true,

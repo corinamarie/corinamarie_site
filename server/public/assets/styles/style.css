@@ -3,8 +3,49 @@ body {
     background-color: hsla(0, 100%, 100%, 0.5);
     color: black;
     margin: 5em;
+    font-family: Courier;
+    font-size: x-small;
+}
+
+header {
+    padding: 15px;
+}
+
+h1 {
+    font-size: x-large;
+    text-align: left;
+}
+
+h2 {
+    font-size: medium;
+    text-align: center;
 }
 
 li {
     display: inline;
+}
+
+iframe {
+    text-align: center;
+}
+
+.img-responsive {
+    width: 25%;
+    height: 25%;
+    margin: 1em;
+    display: inline;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.aboutme p {
+    display: inline;
+}
+
+ul {
+    margin: 2em;
+}
+
+footer {
+    text-align: center;
 }
